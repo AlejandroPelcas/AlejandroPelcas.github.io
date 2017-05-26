@@ -13,12 +13,12 @@ nav ul {
 nav ul li {
   display:inline-block;
   list-style-type: none;
-  margin:10px;
-  background:gold;
+  margin:5px;
+  background:white;
   
   
 }
 
 nav ul li a {
-  color:gold;
+  color:blue;
 }
