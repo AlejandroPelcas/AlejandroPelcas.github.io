@@ -1,5 +1,5 @@
 body {
-  color:gold;
+  color:blue;
   
 }
 
@@ -10,7 +10,8 @@ nav ul {
 nav ul li {
   display:inline-block;
   list-style-type: none;
-  margin:0;
+  margin:10px;
+  
   
 }
 
