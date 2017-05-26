@@ -3,6 +3,10 @@ body {
   
 }
 
+nav ul {
+  margin:0;
+}
+
 nav ul li {
   display:inline-block;
   list-style-type: none;
