@@ -26,7 +26,8 @@ header img {
 }
 
 * {
-  font-family: Georgia;
+  font-family: Georgia, serif;
+  background: white;
   background: LemonChiffon;
 }
 
