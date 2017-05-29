@@ -25,6 +25,10 @@ header img {
   position: center;
 }
 
+p {
+  line-height: 1.8em;
+}
+
 * {
   font-family: Georgia, serif;
   background: white;
