@@ -4,7 +4,7 @@ body {
 
 h1 {
   font-family:'Josefin Sans', sans-serif;
-  color: MidnightBlue; 
+  color: peru; 
 }
 
 nav ul li {
@@ -26,8 +26,4 @@ header img {
   font-family: Georgia, serif;
   background: white;
   background: LemonChiffon;
-}
-
-h1 {
-  color: peru;
 }
