@@ -2,12 +2,9 @@ body {
   font-size: 19px;
 }
 
-body h1 {
+h1 {
+  font-family:'Josefin Sans', sans-serif;
   color: MidnightBlue; 
-}
-
-nav ul {
-  margin:0;
 }
 
 nav ul li {
