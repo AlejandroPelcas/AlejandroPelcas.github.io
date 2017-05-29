@@ -29,3 +29,8 @@ header img {
   font-family: Georgia;
   background: LemonChiffon;
 }
+
+h1 {
+  color: peru;
+  opacity: .7;
+}
