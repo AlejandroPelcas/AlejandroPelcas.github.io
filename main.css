@@ -1,6 +1,5 @@
 body {
   font-size: 19px;
-  background: cornsilk;
 }
 
 header {
@@ -32,4 +31,5 @@ header img {
 
 * {
   font-family: Georgia;
+  background: LemonChiffon;
 }
