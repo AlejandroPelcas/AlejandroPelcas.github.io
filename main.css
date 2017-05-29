@@ -26,3 +26,6 @@ nav ul li {
 nav ul li a {
   color:gold;
 }
+img {
+  border-radius: 100%;
+}
