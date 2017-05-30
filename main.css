@@ -37,6 +37,7 @@ p {
   font-family: Georgia, serif;
   background: white;
   background: LemonChiffon;
+  overflow: scroll;
   /* background-image: url("http://wallpapercave.com/wp/Oz6xHWi.jpg") */
 }
 
