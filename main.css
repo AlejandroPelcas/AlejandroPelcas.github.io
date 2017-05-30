@@ -9,7 +9,7 @@ h1 {
   color: peru; 
 }
 
-nav ul li {
+.buttons {
   text-align: center;
   display:inline-block;
   list-style-type: none;
