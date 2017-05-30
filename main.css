@@ -43,6 +43,7 @@ p {
   
 .my-headline {
   background-image: url("http://wallup.net/wp-content/uploads/2015/12/74042-mountain-trees-space-landscape-winter-Popocatepetl.png");
+  background-position: bottom center;
   height: 400px;
   width: 300px;   
 }
