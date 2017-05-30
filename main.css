@@ -52,3 +52,9 @@ ul {
   word-spacing: 1.3em;
   letter-spacing:
 }
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
