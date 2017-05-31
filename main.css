@@ -58,3 +58,10 @@ img {
   width: 100px;
   border-radius: 100%;
 }
+
+footer {
+  width: 98%;
+  margin: 1%;
+  position: relative;
+  left: 50%;
+}
