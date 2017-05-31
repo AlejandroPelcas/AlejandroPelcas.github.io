@@ -2,6 +2,7 @@
 body {
   font-size: 21px;
   overflow: scroll;
+  background-image: -webkit-linear-gradient(#8E42E8, #43E8BE);
 }
 
 header {
