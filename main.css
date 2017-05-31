@@ -1,6 +1,9 @@
 
 body {
   font-size: 21px;
+  background: url("http://wallup.net/wp-content/uploads/2015/12/74042-mountain-trees-space-landscape-winter-Popocatepetl.png");
+  background-size: cover;
+  overflow: scroll;
 }
 
 h1 {
@@ -42,9 +45,7 @@ p {
   font-family: Georgia, serif;
   background: white;
   background: LemonChiffon;
-  overflow: scroll;
-  background: url("http://wallup.net/wp-content/uploads/2015/12/74042-mountain-trees-space-landscape-winter-Popocatepetl.png");
-  background-size: cover;
+
 }
   
 
