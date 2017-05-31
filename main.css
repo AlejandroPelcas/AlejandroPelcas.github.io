@@ -47,10 +47,8 @@ p {
 
 * {
   box-sizing: border-box;
-  border: 3px solid rgb(0,0,0);
   font-family: Georgia, serif;
-  background: white;
-  background: LemonChiffon;
+
 
 }
   
