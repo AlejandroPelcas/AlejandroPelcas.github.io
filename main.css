@@ -41,6 +41,7 @@ p {
   
 
 ul {
+  display: inline-block;
   position: relative;
   left: 300px;
   word-spacing: 1.3em;
