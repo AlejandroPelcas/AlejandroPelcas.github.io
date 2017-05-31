@@ -1,5 +1,6 @@
 
 body {
+  margin: 0;
   font-size: 21px;
   overflow: scroll;
   background-image: -webkit-linear-gradient(#8E42E8, #43E8BE);
@@ -64,6 +65,7 @@ ul ,li {
   width: 100%;
   word-spacing: 1.3em;
   display: inline-block;
+  list-style-type: none;
 }
 
 img {
