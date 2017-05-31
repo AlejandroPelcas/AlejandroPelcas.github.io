@@ -10,9 +10,8 @@ h1 {
   color: peru; 
 }
 
-.buttons {
+li.buttons {
   display:inline-block;
-  background-color: MidnightBlue;
   margin: auto; 
 }
 
