@@ -1,13 +1,14 @@
 
 body {
-  font-size: 19px;
+  font-size: 21px;
 }
 
 h1 {
   text-align: center;
   font-family:'Josefin Sans', sans-serif;
   color: white;
-  color: peru; 
+  color: rgb(40, 167, 200);
+  color: rgba(40, 167, 200, .7); 
 }
 
 
