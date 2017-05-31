@@ -5,6 +5,10 @@ body {
   background-image: -webkit-linear-gradient(#8E42E8, #43E8BE);
 }
 
+nav {
+  width: 100%;
+}
+
 header {
   width: 100%;
   height: 800px;
@@ -27,7 +31,7 @@ h1 {
 
 a {
   color: white;
-  color:Silver;
+  color: Silver;
 }
 
 header img {
@@ -42,7 +46,7 @@ header img {
 p {
   position: relative;
   left: 20px;
-  width: 200px;
+  width: 300px;
   line-height: 1.1em;
 }
 
