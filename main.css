@@ -42,7 +42,7 @@ p {
 
 ul {
   word-spacing: 1.3em;
-  letter-spacing:
+  display: inline-block;
 }
 
 img {
