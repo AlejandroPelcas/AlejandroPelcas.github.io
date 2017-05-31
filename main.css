@@ -20,6 +20,8 @@ a {
 }
 
 header img {
+  position: relative;
+  left: 50%;
   height: 150px; /* makes it circular*/
   width: 150px;
   border-radius: 100%;
