@@ -64,7 +64,7 @@ ul ,li {
   position: relative;
   text-align: center;
   width: 100%;
-  word-spacing: 1.3em;
+  margin: 10 px;
   display: inline-block;
   list-style-type: none;
 }
