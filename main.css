@@ -49,9 +49,9 @@ p {
   
 
 ul {
-  display: inline-block;
   position: relative;
-  left: 300px;
+  text-align: center;
+  width: 98%;
   word-spacing: 1.3em;
   display: inline-block;
 }
