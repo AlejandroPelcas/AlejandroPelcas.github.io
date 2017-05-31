@@ -11,6 +11,7 @@ h1 {
 }
 
 li.buttons {
+  text-align: center;
   display:inline-block;
   margin: auto; 
 }
