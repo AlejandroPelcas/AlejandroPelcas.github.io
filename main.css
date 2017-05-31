@@ -10,11 +10,12 @@ h1 {
 }
 
 .buttons {
+  width: 60%;
   text-align: center;
   display:inline-block;
   list-style-type: none;
   background-color: MidnightBlue;
-  margin: 0; 
+  margin: auto; 
 }
 
 a {
