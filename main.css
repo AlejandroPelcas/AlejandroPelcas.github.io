@@ -29,6 +29,9 @@ header img {
 }
 
 p {
+  position: relative;
+  left: 20px;
+  width: 30px;
   line-height: 1.1em;
 }
 
