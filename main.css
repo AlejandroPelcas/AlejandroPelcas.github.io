@@ -10,6 +10,7 @@ header {
   height: 800px;
   background: url("http://wallup.net/wp-content/uploads/2015/12/74042-mountain-trees-space-landscape-winter-Popocatepetl.png");
   background-size: cover;
+  
 }
 
 h1 {
@@ -53,10 +54,10 @@ p {
 }
   
 
-ul {
+ul ,li {
   position: relative;
   text-align: center;
-  width: 98%;
+  width: 100%;
   word-spacing: 1.3em;
   display: inline-block;
 }
@@ -68,7 +69,7 @@ img {
 }
 
 footer {
-  width: 98%;
+  width:100%;
   margin: auto;
   position: relative;
   text-align: center;
