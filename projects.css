@@ -1,0 +1,92 @@
+body {
+	margin: 0 auto;
+}
+.projects  {
+	font-family: 'Quicksand' , sans-serif;
+	text-align: center;
+}
+
+.top a  {
+	color: black;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.top li {
+	display: inline-block;
+	padding: 25px;
+}
+
+.top {
+	position: fixed;
+	height: 100px;
+}
+
+.header {
+	position: relative;
+	top: 8em;
+}
+
+a:hover {
+	color: orange;
+	font-weight: bold;
+}
+
+
+.projects-all {
+	position: relative;
+	display: inline-block;
+	color: snow;
+	text-align: center;
+	font-family: 'Quicksand' , sans-serif;
+	top: 8em;
+}
+
+.projects-academic {
+	width: 200px;
+	height: 200px;
+	opacity: .75;
+	background-color: steelblue;
+}
+
+.projects-academic:hover {
+	opacity: 1;
+	padding-left: 10px;
+}
+
+.projects-art {
+	height: 200px;
+	width: 200px;
+	background-color: orange;
+	opacity: .75;
+}
+
+.projects-art:hover {
+	opacity: 1;
+	padding-left: +10px;
+}
+
+.projects-cs {
+	height: 200px;
+	width: 200px;
+	background-color: steelblue;
+	opacity: .75;
+}
+
+.projects-cs:hover {
+	opacity: 1;
+	padding-left: 10px;
+}
+
+.projects-fun {
+	width: 200px;
+	height: 200px;
+	opacity: .75;
+	background-color: purple;
+}
+
+.projects-fun:hover {
+	opacity: 1;
+	padding-left: 10px;
+}
+
