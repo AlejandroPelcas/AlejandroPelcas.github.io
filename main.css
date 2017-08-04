@@ -1,76 +1,97 @@
-*  {
-	box-sizing: border-box;
+* {
+	backface-visibility: 0;
+	background-color: snow;
 }
 
-nav {
-	text-align: center;
+body {
+	margin: 0 auto;
+	background-color:snow;
 }
 
-nav li  {
+.top li {
 	display: inline-block;
-	margin: 10px auto;
-	list-style-type: none;
+	padding: 25px;
+	font-family: 'Quicksand', sans-serif;
+
+
+}
+
+.top {
+	border: 0px solid yellow;
+	height: 100px;
+	position: fixed;
+	width: 100%;
+	background-color:snow ;
+	z-index: 2;
+}
+
+.pro {
+	border: 0px solid red;
 	position: relative;
-	right: 30px;
-}
-
-a  {
-	font-size: 25px;
-	color: lime;
-}
-
-body  {
-	height: 400px;
-	background-attachment: scroll;
-	background: url("http://3.bp.blogspot.com/-sROOdBJ-NHM/VO25E9A_c1I/AAAAAAAAHzU/AlWiUgkw9ko/s1600/carina.jpg") no-repeat;
-	background-size: cover;
-	margin: 0;
-	
-}
-
-
-h1 {
-	font-size: 100px;
-	color: snow;
+	top: 100px;
 	text-align: center;
 }
 
-
-.insta {
-	position: absolute;
-	left: 0%;
-	height: 30px;
-	width: 30px;
-	top: 0px;
-	border-radius: 100%;
-
+.pro img {
+	height: 240px;
+	width: 22em;
+	border-radius: 000%;
+	border: 3px solid ;
 }
 
-.face {
-	position: absolute;
-	height: 30px;
-	width: 30px;
-	top: 0px;
-	left: 2%;
-	border-radius: 100%;
-
-
-}
-
-.profile img {
-	border-radius: 100%;
-	width: 200px;
-	height: 200px;
-	position: relative;
-	left: 530px;
-	border: 2px dashed lavender;
+li a {
+	color: black;
+	text-decoration: none;
 }
 
 
-p {
-	color: snow;
+
+header h1 {
 	text-align: center;
-	width: 300px;
-	position: relative;
-	left: 37%;
+	color: black;
+	letter-spacing: 0px;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 80px;
+	padding-top: 5px;
+
 }
+
+.bio {
+	font-family: 'Quicksand', sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 22px;
+	margin-left: 10%;
+	margin-right: 10%;
+	letter-spacing: 1px;
+	background-color: ;
+	backface-visibility: 0%;
+	z-index: 0;
+}
+
+header {
+	background-color: snow;
+	height: 550px;
+}
+
+.top2 {
+	position: relative;
+	top: 70px;
+}
+
+.pic img {
+	position: relative;
+	height: 350px;
+	width: 350px;
+}
+
+a:hover {
+	font-weight: bold;
+	color: gold;
+
+}
+
+
+/* a:visited {
+	color: gold;
+} makes color of visited links gold */
