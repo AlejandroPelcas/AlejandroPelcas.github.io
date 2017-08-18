@@ -8,39 +8,73 @@ body {
 	background-color:snow;
 }
 
-.top li {
+.first-name {
+	color: steelblue;
+	font-size: 40px;
+	position: absolute; visibility: visible;
+	left: 880px; top: 30px; height: 100px; width: 150px; z-index: 200;
+}
+
+.last-name  {
+	color: gold;
+	font-size: 40px;
+	position: absolute; visibility: visible;
+	left: 1050px; top: 30px; height: 100px; width: 150px; z-index: 200;
+
+}
+
+.navigation li {
 	display: inline-block;
 	padding: 25px;
 	font-family: 'Quicksand', sans-serif;
-
+	font-weight: bold;
+	border-left: 1px solid darkgray;
 
 }
 
-.top {
+.navigation {
 	border: 0px solid yellow;
-	height: 100px;
+	height: 115px;
 	position: fixed;
-	width: 100%;
-	background-color:snow ;
-	z-index: 2;
+	width: 120%;
+	background:snow;
+	z-index: 0;
 }
 
-.pro {
+.image {
 	border: 0px solid red;
 	position: relative;
-	top: 100px;
+	top: 50px;
+	left: 880px;
 	text-align: center;
+	width: 150px;
 }
 
-.pro img {
-	height: 240px;
-	width: 22em;
+.image img {
+	image-rendering: auto;
+	height: 440px;
+	width: 300px;
 	border-radius: 000%;
-	border: 3px solid ;
 }
+
+h6 {
+	position: relative;
+	font-size: 4px;
+	top: 300px;
+	left: 200px;
+	width: 400px;
+	height: 50px;
+	font-size: 20px;
+	color: darkgray;
+	z-index: 2;
+	border: 0px solid red;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
 
 li a {
-	color: black;
+	color: gray;
 	text-decoration: none;
 }
 
@@ -56,7 +90,7 @@ header h1 {
 
 }
 
-.bio {
+.biography {
 	font-family: 'Quicksand', sans-serif;
 	color: black;
 	text-align: center;
@@ -66,7 +100,7 @@ header h1 {
 	letter-spacing: 1px;
 	background-color: ;
 	backface-visibility: 0%;
-	z-index: 0;
+	z-index: 1;
 }
 
 header {
@@ -79,15 +113,11 @@ header {
 	top: 70px;
 }
 
-.pic img {
-	position: relative;
-	height: 350px;
-	width: 350px;
-}
+
 
 a:hover {
 	font-weight: bold;
-	color: gold;
+	color: lavender;
 
 }
 
