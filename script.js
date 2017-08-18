@@ -5,6 +5,6 @@ $(document).ready(function() {
 		$('.projects-all').fadeTo('slow',1);
 	});
 	$('.projects-all').mouseleave(function() {
-		$('.projects-all').fadeTo('slow',.5);
+		$('.projects-all').fadeTo('slow',.95);
 	});
 });
