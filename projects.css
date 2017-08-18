@@ -1,6 +1,15 @@
 body {
 	margin: 0 auto;
 }
+
+h1 {
+	color: steelblue;
+}
+
+h2 {
+	color: gold;
+}
+
 .projects  {
 	font-family: 'Quicksand' , sans-serif;
 	text-align: center;
@@ -15,11 +24,16 @@ body {
 .top li {
 	display: inline-block;
 	padding: 25px;
+	background-color: snow;
+	border-left: 1px solid gray;
+	
 }
 
 .top {
 	position: fixed;
 	height: 100px;
+	background-color: snow;
+	z-index: 3;
 }
 
 .header {
@@ -45,8 +59,10 @@ a:hover {
 .projects-academic {
 	width: 200px;
 	height: 200px;
-	opacity: .75;
+	opacity: .85;
 	background-color: steelblue;
+	background-position: center;
+	background-image: url(https://68.media.tumblr.com/df7242379319c62df955ce71c79d05db/tumblr_o410ubnCsa1qabbyto1_500.gif);
 }
 
 .projects-academic:hover {
@@ -58,7 +74,9 @@ a:hover {
 	height: 200px;
 	width: 200px;
 	background-color: orange;
-	opacity: .75;
+	opacity: .85;
+	background-position: center;
+	background-image: url(https://i.pinimg.com/originals/38/bc/37/38bc37825499049b9a79226295af72d9.gif);
 }
 
 .projects-art:hover {
@@ -70,7 +88,9 @@ a:hover {
 	height: 200px;
 	width: 200px;
 	background-color: steelblue;
-	opacity: .75;
+	opacity: .90;
+	background-position: center;
+	background-image: url(https://media.giphy.com/media/Q9aBxHn9fTqKs/giphy.gif);
 }
 
 .projects-cs:hover {
@@ -81,8 +101,11 @@ a:hover {
 .projects-fun {
 	width: 200px;
 	height: 200px;
-	opacity: .75;
+	opacity: .85;
 	background-color: purple;
+	background-image: url(http://37.media.tumblr.com/0ba1ba128951dff1eea53c9a35d8fe0d/tumblr_n4ux8nbU3m1sjwwzso1_500.gif);
+	background-position: center;
+
 }
 
 .projects-fun:hover {
