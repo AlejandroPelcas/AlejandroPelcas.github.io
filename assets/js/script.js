@@ -10,18 +10,6 @@ $(document).ready(function () {
   line.fadeIn(1000);
   link.fadeIn(1000);
 
-  $('.type').typeit({
-       strings: ["Software Engineer", "Student", "A dork", "Boba Addict", "A tall human bean"],
-       speed: 175,
-       breakLines: false,
-       loop: true,
-       startDelay: 150,
-       deleteDelay: 1000,
-       loopDelay: 900
-    });
-
-
-
 
 
 
