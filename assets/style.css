@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: #FAFAFA;
+}
+
+.name {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 32px;
+	position: relative;
+	left: -4em;
+	top: -.5em;
+	letter-spacing: .1em;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+	font-family: 'Quicksand', sans-serif;
+	position: absolute;
+	right: 5em;
+	/*top: 4em;*/
+	top: 2em;
+	letter-spacing: .1em;
+	font-size:16px;
+
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	position: relative;
+}
+
+li {
+	display: inline-block, flex;
+	margin: 0px 40px;
+}
+
+.dash-line {
+	position: relative;
+	border: 1px solid #2f2f2f;
+	top: 6em;
+	opacity: .5;
+	width: 50%;
+}
+
+.header {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 32px;
+	position: relative;
+	left: 25%;
+	top: 10em;
+}
+
+.post {
+	position: relative;
+	top:22.5em;
+	left: 25%;
+	text-indent: 10%;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 1px;
+	line-height: 2.25;
+	width: 50%;
+}
+
+.current  {color: #009ede;}
+.current a {color: #009ede;}
+
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {color:grey;}
+
+#prince {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#mood img {
+	width: 20px;
+	height: 20px;
+}
+
+#sun{background-color: gold}
+#moon{background-color: grey}
+
+/****** about.html page ******/
+#alamere {
+	position: relative;
+	width: 720px;
+	height: 480px;
+	top: -160px;
+}
+
+#bio {
+	position: relative;
+	top: -140px;
+}
