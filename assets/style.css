@@ -1,16 +1,12 @@
-* {
-	margin: 0;
-}
-
-body {
-	background-color: #FFFFFF;
-}
+* {margin: 0;}
+html {font-size: 16px;}
+body {background-color: whitesmoke;}
 
 .top {
 	background-color: darkcyan;
 	width: 100%;
 	z-index: 0;
-	height: 5em;
+	height: 5rem;
 }
 
 .shadow {
@@ -27,23 +23,21 @@ body {
 	color: #ffffff;
 	font-family: 'Gugi', cursive;
 	position: relative;
-	left: -3.7em;
-	top: -.3em;
+	left: 2rem;
+	top: -.8rem;
 	letter-spacing: .1em;
 	font-size: 34px;
 }
 
 .nav {
-	background-color: ;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	font-family: 'Pragati Narrow', sans-serif;
 	position: absolute;
-	right: 5.6em;
-	/*top: 4em;*/
 	top: 1.5em;
-	letter-spacing: .05em;
-	font-size:18px;
+	letter-spacing: .05rem;
+	font-size:1.1em;
 }
 
 ul {
@@ -57,6 +51,25 @@ li {
 	margin: 0px 40px;
 }
 
+.home-box {
+	border: 1px gold solid;
+	height: 15rem;
+
+}
+
+#june6 {
+	position: relative;
+	top: 3rem;
+	font-size: 3rem;
+	text-align: center;
+}
+
+#june6-1 {
+	width: 100%;
+	position: relative;
+	top: 5rem;
+	text-align: center;
+}
 .dash-line {
 	position: relative;
 	border: 1px solid #2f2f2f;
@@ -116,7 +129,10 @@ a:hover {color:#009ede;
 
 .links a {
 	color: #ffffff;
+	position: relative;
+	left: 24rem;
 }
+
 
 /* MOON AND SUN LIGTHS IN/OUT
 #sun{background-color: lavender;
@@ -125,81 +141,75 @@ a:hover {color:#009ede;
 	border-radius: 100%;}
 */
 /****** about.html page ******/
-#alamere {
+#steps {
 	position: relative;
-	width: 720px;
-	height: 480px;
-	top: -160px;
+	width: 39rem;
+	height: 26rem;
+	top: 9rem;
+	transform: rotate(270deg);
+	left: 55rem;
 }
 
-#bio {
+
+.post #bio {
 	position: relative;
-	top: -140px;
+	font-family: sans-serif;
+	line-height: 1.4em;
+	width: 80%;
+	left: 10%;
+	top: 30%;
+	text-align: center;
+}
+
+#bio  {
+	width: 52%;
+}
+
+.post {
+	left: 1rem;
+	top: -24rem;
+	position: relative;
+	border:1px green solid;
+	font-size: 1.5rem;
+	width: 60rem;
+	height: 30rem;
 }
 
 .picture {
-	width: 300px;
-	height: 300px;
+	width: 10rem;
+	height: auto;
 	margin: 0px;
+	border: 1px solid blue;
+
 }
 
 .container-photo {
+	display: grid;
 	position: relative;
-	justify-content: center;
-	top: 150px;
-	left: 000px;
+	top: 5rem;
+	width: 100%;
+	height: auto;
+}
+
+.container {
+	border: 1px red solid;
 }
 
 /*  BOOKS PAGE */
+
+
+.ghost-shelf {
+	border: 1px red solid;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+}
+
 .item {
-	width: auto;
-	height:16em;
 	position: relative;
-	box-shadow: 10px 0px saddlebrown;
-	padding-left: 2em;
-
-}
-
-.book {
+	height: 18rem;
+	width: 12rem;
+	padding-bottom: 3rem;
 	left: 10%;
-	position: relative;
-	top: 2%;
-}
-
-.shelf {
-	background-color: burlywood;
-	position: relative;
-	width: 100%;
-	height: 3em;
-	left: 0%;
-	top: 40%;
-}
-.shelfshadow {
-	background-color: peru;
-	width: 100%;
-	position: relative;
-	height: 1em;
-}
-.space {
-	background-color: snow;
-	height: 4em;
-	position: relative;
-	width: 100%;
-	z-index: -0;
-}
-
-.bookshelf {
-	background-color: sandybrown;
-	z-index: -2;
-	height: 100%;
-	position: relative;
-	width: 80%;
-	left: 10%;
-	border: solid 1em sienna;
-}
-#bookshelf {
-	position: relative;
-	left: 10%;
-	height: 100%;
-	width: 80%;
 }
