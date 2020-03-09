@@ -21,7 +21,7 @@ a {
   padding-left: 1%;
   font-family: futura;
 }
-.incline-line{ background-color: white; width: 50%; margin: 0; margin-top: 1%; margin-bottom: 1%; transform: rotate(0deg); border-color: white; padding: 0; height: .1%; width: 100%; display: center;}
+.incline-line{ background-color: black; width: 50%; margin: 0; margin-top: 1%; margin-bottom: 1%; transform: rotate(0deg); border-color: black; padding: 0; height: .1%; width: 100%; display: center;}
 
 
 h2 {
